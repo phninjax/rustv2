@@ -11,7 +11,8 @@ body {
 	position: relative;
 }
 	
-#bg{
+#bg{	
+	
 	position: fixed;
 	width: 100%;
 	filter: blur(1);
