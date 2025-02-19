@@ -1,0 +1,280 @@
+* {
+	box-sizing: border-box;
+	z-index: 1;
+}
+
+body {
+	
+	
+	font-family: "Open Sans", Helvetica;
+	margin: 0;
+	background: linear-gradient(rgb(7, 8, 12), rgb(7, 8, 12)), no-repeat;
+	
+}
+	
+
+
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+p {
+	margin: 0;
+	padding: 3px;
+}
+
+span{
+	color: white;
+}
+
+.logo img {
+	width: 50px; 
+	position: inherit;
+	left: 0;
+	top: 0;
+	margin: 20px 0px 0px 30px;
+	display: inline-block;
+	
+}
+div.lists{
+	position: absolute;
+	right: 50px;
+	top: 35px;
+	font-size: 30px;
+	text-decoration: none;
+
+	
+}
+.navs{
+	display: inline-block;
+	color: rgb(255, 255, 255);
+	padding: 2px 15px;
+	margin: 0px 10px;
+	border-radius: 15px;
+	cursor: pointer;
+	transition: 0.3s ease-in-out;
+	z-index: 2;
+}
+
+.navs:hover{
+	background-color: gray;
+}
+nav{
+	background-color: black;
+	position: fixed;
+	width: 100%;
+	z-index: 20;
+}
+
+
+
+
+
+
+#tsparticles {
+	z-index: 0; 
+}
+
+
+@media(min-width: 400px) {
+	.logo img {
+		width: 50px; 
+	}
+
+}
+
+@media(min-width: 1250px) {
+	.title {
+		font-size: 24px;
+	}
+
+
+
+	.logo img {
+		width: 300px;
+		transition: 0.5s ease-in-out;
+	}
+	.logo img:hover{
+		width: 350px;
+	}
+
+	
+	.img {
+		width: 100%;
+	}
+	
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap");
+
+:root {
+    --Cyan: #2196f3;
+    --Orange: #f44336;
+    --Green: #009688;
+    --Red: #e91e63;
+    --LightGrey: #eee;
+    --DarkGrey: #7e7e7e;
+}
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background: var(--LightGrey);
+}
+::-webkit-scrollbar-thumb {
+    background: var(--Red);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: var(--LightGrey);
+    font-family: "Cairo", sans-serif;
+}
+.offer {
+    width: 130px;
+    padding: 10px 15px;
+    position: absolute;
+    top: 15px;
+    right: 5%;
+    background-color: var(--Cyan);
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+}
+.offer::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: 21px solid;
+    border-color: transparent var(--LightGrey) transparent transparent;
+}
+.main {
+    width: 80%;
+    margin: 80px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+	position: absolute;
+	top: 200px;
+	left: 180px;
+}
+section{
+	height: 1000px;
+}
+.tierrankingsystem{
+	color: white;
+	
+}
+.main .plan {
+    width: 1000px;
+    background-color: rgb(31, 35, 53);
+    border-radius: 15px 15px 0 0;
+    -webkit-border-radius: 15px 15px 0 0;
+    -moz-border-radius: 15px 15px 0 0;
+    -ms-border-radius: 15px 15px 0 0;
+    -o-border-radius: 15px 15px 0 0;
+}
+.main h1 {
+    margin: -10px 0 0 0;
+    padding: 20px;
+    color: #fff;
+    font-size: 22px;
+    border-radius: 15px 15px 0 0;
+    -webkit-border-radius: 15px 15px 0 0;
+    -moz-border-radius: 15px 15px 0 0;
+    -ms-border-radius: 15px 15px 0 0;
+    -o-border-radius: 15px 15px 0 0;
+	justify-self: center;
+	align-self: center;
+	padding: 0px 111px 30px 111px;
+}
+.tier1{
+	width: 30px;
+	position: relative;
+	top: 35px;
+	left: -30px;
+	padding: 0px;
+	margin: 0px;
+}
+.tier2{
+	width: 35px;
+	position: relative;
+	top: 35px;
+	left: -30px;
+	padding: 0px;
+	margin: 0px;
+}
+.tier3{
+	width: 35px;
+	position: relative;
+	top: 35px;
+	left: -30px;
+	padding: 0px;
+	margin: 0px;
+}
+.tier4{
+	width: 35px;
+	position: relative;
+	top: 35px;
+	left: -30px;
+	padding: 0px;
+	margin: 0px;
+	opacity: 0;
+}
+.main .basic h1 {
+    background-color: rgb(54, 46, 1);
+}
+
+.main .plan ul li {
+    padding: 20px 0 20px 50px;
+    list-style: none;
+    position: relative;
+    cursor: default;
+	color: white;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+.main .plan ul li:hover {
+    font-weight: bold;
+    padding-left: 60px;
+}
+.main .plan ul li:not(:last-child) {
+    border-bottom: 1px solid var(--LightGrey);
+}
+.main .plan ul li span {
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    width: 20px;
+    height: 20px;
+    background-color: var(--Green);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.main .basic ul li:not(.tick) span {
+    background-color: var(--Red);
+}
+
+
+
+@media (max-width: 890px) {
+    .main {
+        flex-direction: column;
+    }
+    .main .plan {
+        width: 100%;
+    }
+}
