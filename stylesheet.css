@@ -4,7 +4,7 @@
 }
 
 body {
-	background: linear-gradient(rgba(16, 20, 26,0.65),rgba(16, 20, 26, 0.65)),
+	background: linear-gradient(rgba(16, 20, 26,0.9),rgba(16, 20, 26, 0.9)),
 			url("minecraft.jpg") no-repeat center center fixed;
 	background-size: cover;
 	font-family: "Open Sans", Helvetica;
