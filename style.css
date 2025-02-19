@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    height: 90vh;
+    background: gray;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    color: whitesmoke;
+    
+}
+
+.container h1{
+    font-size: 50px;
+}
+
+.container .line{
+    background: red;
+    width: 100px;
+    height: 3px;
+    margin: 10px auto;
+}
+
+.container h4{
+    margin-bottom: 10px;
+}
+
+.btn{
+    color: white;
+    background: rgb(0,104,255);
+    background: linear-gradient(90deg, rgba(0,104,255,1) 0%, rgba(109,58,180,1) 50%, rgba(198,69,252,1) 100%);
+    border-radius: 10px;
+    padding: 3px 10px;
+}
+
+a{
+    text-decoration: none;
+}
+
+nav{
+    background: black;
+    position: absolute;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    color: white;
+    margin-left: 10px;
+}
+
+.navlinks{
+    list-style: none;
+    display: flex;
+}
+
+.navlinks li{
+    margin: 0 25px;
+}
+
+.navlinks a{
+    color: white;
+}
+
+
+.mbbtn{
+    display: none;
+}
+
+@media only screen and (max-width:850px){
+    
+    .navlinks{
+        flex-direction: column;
+        position: absolute;
+        top: -900px;
+        background: rgb(0,0,0);
+background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(91,89,89,1) 0%, rgba(4,4,4,1) 96%, rgba(0,0,0,1) 100%);
+        height: 800px;
+        width: 100%;
+        transition: 0.5s ease-in-out;
+        border-bottom-left-radius: 100px;
+        border-bottom-right-radius: 100px;
+    }
+
+    .navlinks li{
+        margin: 30px auto;
+    }
+
+    .logo{
+        z-index: 1;
+    }
+    .mbbtn{
+        position: absolute;
+        width: 50px;
+        z-index: 100;
+        right: 30px;
+        top: 20px;
+        display: block;
+        cursor: pointer;
+    }
+    
+    .mbbtnclicked{
+        top: 100%;
+    }
+
+}
