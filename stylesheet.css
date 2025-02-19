@@ -11,14 +11,14 @@ body {
 	position: relative;
 }
 	
-#bg{	
-	
+#bg{
 	position: fixed;
 	width: 100%;
 	filter: blur(1);
 	filter: brightness(0.1);
-	z-index: -2;
+	z-index: -1;
 }
+
 html, body {
 	width: 100vw;
 	min-height: 100vh;
@@ -38,11 +38,19 @@ a {
 	text-decoration: none;
 }
 
+#exp1.exp1{
+	width: 20px;
+	position: absolute;
+	right: 100;
+	bottom: 100;
+}
 p {
 	margin: 0;
 	padding: 3px;
 }
-
+#store{
+	width: 145px;
+}
 .container {
 	text-align: center;
 }
