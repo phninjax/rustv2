@@ -228,8 +228,17 @@ section{
 	margin: 0px;
 	opacity: 0;
 }
-.main .basic h1 {
+.main .basic .gold{
     background-color: rgb(54, 46, 1);
+}
+.main .basic .silver{
+    background-color: rgb(75, 75, 75);
+}
+.main .basic .bronze{
+    background-color: rgb(78, 49, 20);
+}
+.main .basic .plain{
+    background-color: rgb(15, 17, 26);
 }
 
 .main .plan ul li {
