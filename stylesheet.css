@@ -10,7 +10,14 @@ body {
 	margin: 0;
 	position: relative;
 }
-
+	
+#bg{
+	position: fixed;
+	width: 100%;
+	filter: blur(1);
+	filter: brightness(0.1);
+	z-index: -1;
+}
 html, body {
 	width: 100vw;
 	min-height: 100vh;
