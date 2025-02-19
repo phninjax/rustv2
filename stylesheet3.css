@@ -1,0 +1,56 @@
+    
+    
+    header img{
+        width: 500px;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: rgb(30, 32, 43);
+    }
+    header {
+        background-color: rgb(31, 35, 53);
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    .container {
+      max-width: 900px;
+      margin: 20px auto;
+      background-color: rgb(12, 13, 20);
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      color: white;
+    }
+    h1, h2 {
+      text-align: center;
+    }
+    
+    input, select {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+    }
+    footer {
+      text-align: center;
+      padding: 10px;
+      background-color: rgb(31, 35, 53);
+      color: white;
+      margin-top: 20px;
+    }
+    blockquote {
+      font-style: italic;
+      text-align: center;
+      margin: 10px 0;
+      padding: 10px;
+      background: #f0f0f0;
+      border-left: 5px solid #007bff;
+    }
+    img {
+      width: 100%;
+      height: auto;
+      margin-top: 10px;
+      border-radius: 5px;
+    }
